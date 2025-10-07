@@ -1,4 +1,4 @@
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,8 +6,8 @@ namespace HNW.Utils
 {
     public class CameraSwitcher : MonoBehaviour
     {
-        [SerializeField] CinemachineVirtualCamera farCamera;
-        [SerializeField] CinemachineVirtualCamera nearCamera;
+        [SerializeField] CinemachineCamera farCamera;
+        [SerializeField] CinemachineCamera nearCamera;
 
         void Start()
         {
